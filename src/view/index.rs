@@ -118,7 +118,7 @@ pub fn Index() -> impl IntoView {
                         class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
                         <img class="w-10 h-10" src="/images/json.webp" alt="" />
                         <div class="ml-3 truncate">
-                            <h3 class="text-sm truncate">JSON 格式化</h3>
+                            <h3 class="text-sm truncate">JSON</h3>
                             <p class="text-xs text-gray-400 truncate">JSON 格式化转义工具</p>
                         </div>
                     </div>
