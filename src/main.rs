@@ -11,7 +11,9 @@ use view::Index;
 use view::Json;
 use view::Md5;
 use view::Qrcode;
+use view::Toml;
 use view::Uuid;
+use view::Yaml;
 
 #[component]
 pub fn App() -> impl IntoView {
@@ -29,6 +31,8 @@ pub fn App() -> impl IntoView {
                     <Route path="/md5" view=Md5 />
                     <Route path="/uuid" view=Uuid />
                     <Route path="/qrcode" view=Qrcode />
+                    <Route path="/yaml" view=Yaml />
+                    <Route path="/toml" view=Toml />
                 </Routes>
             </main>
             <footer>

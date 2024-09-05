@@ -183,6 +183,26 @@ pub fn Index() -> impl IntoView {
                         </div>
                     </div>
                 </a>
+                <a href="/yaml" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="/images/yaml.png" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">YAML</h3>
+                            <p class="text-xs text-gray-400 truncate">YAML 与 JSON 互转</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="/toml" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="/images/toml.png" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">TOML</h3>
+                            <p class="text-xs text-gray-400 truncate">TOML 与 JSON 互转</p>
+                        </div>
+                    </div>
+                </a>
             </div>
         </section>
         <section class="my-5">
