@@ -10,7 +10,9 @@ use view::Base64;
 use view::Index;
 use view::Json;
 use view::Md5;
+use view::Qrcode;
 use view::Uuid;
+
 #[component]
 pub fn App() -> impl IntoView {
     view! {
@@ -26,6 +28,7 @@ pub fn App() -> impl IntoView {
                     <Route path="/json" view=Json />
                     <Route path="/md5" view=Md5 />
                     <Route path="/uuid" view=Uuid />
+                    <Route path="/qrcode" view=Qrcode />
                 </Routes>
             </main>
             <footer>

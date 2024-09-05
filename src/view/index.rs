@@ -153,6 +153,36 @@ pub fn Index() -> impl IntoView {
                         </div>
                     </div>
                 </a>
+                <a href="/qrcode" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="/images/qrcode.png" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">二维码</h3>
+                            <p class="text-xs text-gray-400 truncate">在线生成二维码</p>
+                        </div>
+                    </div>
+                </a>
+                <a style="pointer-events:none" href="#" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="/images/time.png" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">时间戳转换</h3>
+                            <p class="text-xs text-gray-400 truncate">即将上线</p>
+                        </div>
+                    </div>
+                </a>
+                <a style="pointer-events:none" href="#" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="/images/aes.png" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">AES</h3>
+                            <p class="text-xs text-gray-400 truncate">即将上线</p>
+                        </div>
+                    </div>
+                </a>
             </div>
         </section>
         <section class="my-5">

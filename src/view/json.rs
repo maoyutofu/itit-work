@@ -67,7 +67,7 @@ pub fn Json() -> impl IntoView {
             when=move || { msg.get().is_some() }
             fallback=|| view! { }
         >
-             <div class="p-4 rounded-md bg-yellow-100 text-yellow-800">
+             <div class="p-4 bg-yellow-100 text-yellow-800">
                 <p>{msg}</p>
             </div>
         </Show>
