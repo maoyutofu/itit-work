@@ -1,5 +1,4 @@
 use leptos::*;
-use leptos_router::A;
 
 #[component]
 pub fn Index() -> impl IntoView {
@@ -114,7 +113,7 @@ pub fn Index() -> impl IntoView {
             <h2>工具</h2>
             <div
                 class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5  2xl:grid-cols-6 gap-5 mt-5">
-                <A href="/json" target="_blank">
+                <a href="/json" target="_blank">
                     <div
                         class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
                         <img class="w-10 h-10" src="/images/json.webp" alt="" />
@@ -123,8 +122,8 @@ pub fn Index() -> impl IntoView {
                             <p class="text-xs text-gray-400 truncate">JSON 格式化转义工具</p>
                         </div>
                     </div>
-                </A>
-                <A href="/md5" target="_blank">
+                </a>
+                <a href="/md5" target="_blank">
                     <div
                         class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
                         <img class="w-10 h-10" src="/images/md5.png" alt="" />
@@ -133,8 +132,8 @@ pub fn Index() -> impl IntoView {
                             <p class="text-xs text-gray-400 truncate">MD5计算工具</p>
                         </div>
                     </div>
-                </A>
-                <A href="/base64" target="_blank">
+                </a>
+                <a href="/base64" target="_blank">
                     <div
                         class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
                         <img class="w-10 h-10" src="/images/base64.png" alt="" />
@@ -143,8 +142,8 @@ pub fn Index() -> impl IntoView {
                             <p class="text-xs text-gray-400 truncate">在线编码解码</p>
                         </div>
                     </div>
-                </A>
-                <A href="/uuid" target="_blank">
+                </a>
+                <a href="/uuid" target="_blank">
                     <div
                         class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
                         <img class="w-10 h-10" src="/images/uuid.png" alt="" />
@@ -153,7 +152,7 @@ pub fn Index() -> impl IntoView {
                             <p class="text-xs text-gray-400 truncate">UUID 生成工具</p>
                         </div>
                     </div>
-                </A>
+                </a>
             </div>
         </section>
         <section class="my-5">
