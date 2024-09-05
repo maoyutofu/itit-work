@@ -199,7 +199,7 @@ pub fn Index() -> impl IntoView {
                         <img class="w-10 h-10" src="/images/time.png" alt="" />
                         <div class="ml-3 truncate">
                             <h3 class="text-sm truncate">时间戳转换</h3>
-                            <p class="text-xs text-gray-400 truncate">即将上线</p>
+                            <p class="text-xs text-gray-400 truncate">时间戳转目标时区</p>
                         </div>
                     </div>
                 </a>
