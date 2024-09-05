@@ -123,16 +123,6 @@ pub fn Index() -> impl IntoView {
                         </div>
                     </div>
                 </a>
-                <a href="/aes" target="_blank">
-                    <div
-                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
-                        <img class="w-10 h-10" src="/images/aes.png" alt="" />
-                        <div class="ml-3 truncate">
-                            <h3 class="text-sm truncate">AES</h3>
-                            <p class="text-xs text-gray-400 truncate">对称加密算法</p>
-                        </div>
-                    </div>
-                </a>
                 <a href="/yaml" target="_blank">
                     <div
                         class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
@@ -140,6 +130,26 @@ pub fn Index() -> impl IntoView {
                         <div class="ml-3 truncate">
                             <h3 class="text-sm truncate">YAML</h3>
                             <p class="text-xs text-gray-400 truncate">YAML 与 JSON 互转</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="/toml" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="/images/toml.png" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">TOML</h3>
+                            <p class="text-xs text-gray-400 truncate">TOML 与 JSON 互转</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="/aes" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="/images/aes.png" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">AES</h3>
+                            <p class="text-xs text-gray-400 truncate">对称加密算法</p>
                         </div>
                     </div>
                 </a>
@@ -190,16 +200,6 @@ pub fn Index() -> impl IntoView {
                         <div class="ml-3 truncate">
                             <h3 class="text-sm truncate">时间戳转换</h3>
                             <p class="text-xs text-gray-400 truncate">即将上线</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="/toml" target="_blank">
-                    <div
-                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
-                        <img class="w-10 h-10" src="/images/toml.png" alt="" />
-                        <div class="ml-3 truncate">
-                            <h3 class="text-sm truncate">TOML</h3>
-                            <p class="text-xs text-gray-400 truncate">TOML 与 JSON 互转</p>
                         </div>
                     </div>
                 </a>
