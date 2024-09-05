@@ -179,7 +179,7 @@ pub fn Index() -> impl IntoView {
                         <img class="w-10 h-10" src="/images/aes.png" alt="" />
                         <div class="ml-3 truncate">
                             <h3 class="text-sm truncate">AES</h3>
-                            <p class="text-xs text-gray-400 truncate">即将上线</p>
+                            <p class="text-xs text-gray-400 truncate">对称加密算法</p>
                         </div>
                     </div>
                 </a>
