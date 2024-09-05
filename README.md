@@ -3,7 +3,7 @@
 ## Run or build
 ```
 # build tailwindcss
-npx tailwindcss -i ./input.css -o ./style/output.css --watch
+npx tailwindcss -i ./input.css -o ./style/output.css
 
 # run
 trunk serve --open
