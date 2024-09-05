@@ -12,6 +12,7 @@ use view::Index;
 use view::Json;
 use view::Md5;
 use view::Qrcode;
+use view::Timestamp;
 use view::Toml;
 use view::Uuid;
 use view::Yaml;
@@ -35,6 +36,7 @@ pub fn App() -> impl IntoView {
                     <Route path="/yaml" view=Yaml />
                     <Route path="/toml" view=Toml />
                     <Route path="/aes" view=Aes />
+                    <Route path="/timestamp" view=Timestamp />
                 </Routes>
             </main>
             <footer>
