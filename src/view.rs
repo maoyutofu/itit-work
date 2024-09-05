@@ -1,3 +1,4 @@
+mod aes;
 mod base64;
 mod index;
 mod json;
@@ -7,6 +8,7 @@ mod toml;
 mod uuid;
 mod yaml;
 
+pub use aes::Aes;
 pub use base64::Base64;
 pub use index::Index;
 pub use json::Json;

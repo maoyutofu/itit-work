@@ -6,6 +6,7 @@ mod view;
 
 use common::Footer;
 use common::Header;
+use view::Aes;
 use view::Base64;
 use view::Index;
 use view::Json;
@@ -33,6 +34,7 @@ pub fn App() -> impl IntoView {
                     <Route path="/qrcode" view=Qrcode />
                     <Route path="/yaml" view=Yaml />
                     <Route path="/toml" view=Toml />
+                    <Route path="/aes" view=Aes />
                 </Routes>
             </main>
             <footer>

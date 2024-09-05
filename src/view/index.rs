@@ -173,7 +173,7 @@ pub fn Index() -> impl IntoView {
                         </div>
                     </div>
                 </a>
-                <a style="pointer-events:none" href="#" target="_blank">
+                <a href="/aes" target="_blank">
                     <div
                         class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
                         <img class="w-10 h-10" src="/images/aes.png" alt="" />
