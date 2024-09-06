@@ -240,7 +240,6 @@ pub fn Timestamp() -> impl IntoView {
                         <option value="14">14时区  [基里巴斯] Kiritimati 圣诞岛</option>
                     </select>
                 </div>
-                <label for="data" class="block mb-2 text-sm font-medium text-gray-900 mt-5">数据</label>
                 <div class="flex mt-5 justify-end gap-1">
                     <button on:click=transform type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium text-sm px-5 py-2.5 me-2 mb-2">转换</button>
                 </div>
