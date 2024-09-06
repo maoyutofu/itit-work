@@ -14,7 +14,7 @@ pub fn Footer() -> impl IntoView {
             </div>
         </section>
         <div class="flex gap-2">
-            <div class="text-sm" inner_html="&copy;"> 2024 <a href="https://github.com/maoyutofu/itit-work" class="ml-2">itit.work</a></div>
+            <div class="text-sm" inner_html="&copy;"> 2024 <a href="https://itit.work/" class="ml-2">itit.work</a></div>
             <div class="text-sm"><a href="https://github.com/maoyutofu/itit-work/issues">Issues</a></div>
         </div>
     }
