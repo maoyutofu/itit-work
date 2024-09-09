@@ -21,7 +21,7 @@ impl Mode {
 
 fn encrypt_aes128_ebc_pkcs7(key: String, data: String) -> Result<String, InvalidKeyIvLength> {
     let iv = [0u8; 16];
-    let cipher = Aes128Ecb::new_from_slices(&key.trim().as_bytes(), &iv)?;
+    let cipher = Aes128Ecb::new_from_slices(key.trim().as_bytes(), &iv)?;
     let enc = cipher.encrypt_vec(data.trim().as_bytes());
     Ok(BASE64_STANDARD.encode(&enc))
 }
@@ -31,7 +31,7 @@ fn decrypt_aes128_ebc_pkcs7(
     data: String,
 ) -> Result<String, Box<dyn std::error::Error>> {
     let iv = [0u8; 16];
-    let cipher = Aes128Ecb::new_from_slices(&key.trim().as_bytes(), &iv)?;
+    let cipher = Aes128Ecb::new_from_slices(key.trim().as_bytes(), &iv)?;
     let mut buf = BASE64_STANDARD.decode(data.trim())?;
     let decrypted_ciphertext = cipher.decrypt(&mut buf)?;
     let result = String::from_utf8(decrypted_ciphertext.to_vec())?;
