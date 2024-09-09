@@ -8,6 +8,7 @@ use common::Footer;
 use common::Header;
 use view::Aes;
 use view::Base64;
+use view::CaseConverter;
 use view::Index;
 use view::Json;
 use view::Md5;
@@ -37,6 +38,7 @@ pub fn App() -> impl IntoView {
                     <Route path="/toml" view=Toml />
                     <Route path="/aes" view=Aes />
                     <Route path="/timestamp" view=Timestamp />
+                    <Route path="/case-converter" view=CaseConverter />
                 </Routes>
             </main>
             <footer>

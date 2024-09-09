@@ -8,6 +8,7 @@ mod timestamp;
 mod toml;
 mod uuid;
 mod yaml;
+mod case_converter;
 
 pub use aes::Aes;
 pub use base64::Base64;
@@ -19,3 +20,4 @@ pub use timestamp::Timestamp;
 pub use toml::Toml;
 pub use uuid::Uuid;
 pub use yaml::Yaml;
+pub use case_converter::CaseConverter;
