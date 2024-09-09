@@ -9,6 +9,7 @@ use common::Header;
 use view::Aes;
 use view::Base64;
 use view::CaseConverter;
+use view::Decimal;
 use view::Index;
 use view::Json;
 use view::Md5;
@@ -17,6 +18,7 @@ use view::Timestamp;
 use view::Toml;
 use view::Uuid;
 use view::Yaml;
+use view::Hex;
 
 #[component]
 pub fn App() -> impl IntoView {
@@ -39,6 +41,8 @@ pub fn App() -> impl IntoView {
                     <Route path="/aes" view=Aes />
                     <Route path="/timestamp" view=Timestamp />
                     <Route path="/case-converter" view=CaseConverter />
+                    <Route path="/hex" view=Hex />
+                    <Route path="/decimal" view=Decimal />
                 </Routes>
             </main>
             <footer>

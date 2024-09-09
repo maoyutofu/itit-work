@@ -213,6 +213,26 @@ pub fn Index() -> impl IntoView {
                         </div>
                     </div>
                 </a>
+                <a href="/hex" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="/images/hex.png" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">toHex</h3>
+                            <p class="text-xs text-gray-400 truncate">十进制转十六进制</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="/decimal" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="/images/number.png" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">toDecimal</h3>
+                            <p class="text-xs text-gray-400 truncate">十六进制转十进制</p>
+                        </div>
+                    </div>
+                </a>
             </div>
         </section>
         <section class="my-5">

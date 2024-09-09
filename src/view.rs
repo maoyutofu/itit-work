@@ -9,6 +9,8 @@ mod toml;
 mod uuid;
 mod yaml;
 mod case_converter;
+mod hex;
+mod decimal;
 
 pub use aes::Aes;
 pub use base64::Base64;
@@ -21,3 +23,5 @@ pub use toml::Toml;
 pub use uuid::Uuid;
 pub use yaml::Yaml;
 pub use case_converter::CaseConverter;
+pub use hex::Hex;
+pub use decimal::Decimal;
