@@ -13,7 +13,7 @@ fn utc_datetime_format(milliseconds: i64, format: &str) -> Result<String, String
 }
 
 fn datetime_format(milliseconds: i64, offset: f32, format: &str) -> Result<String, String> {
-    let offset_seconds = (offset * 3600 as f32) as i32;
+    let offset_seconds = (offset * 3600_f32) as i32;
     if let Some(target_offset) = FixedOffset::east_opt(offset_seconds) {
         let seconds = milliseconds / 1000;
         let nanoseconds = (milliseconds % 1000) * 1_000_000;
