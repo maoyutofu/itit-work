@@ -1,6 +1,7 @@
 use std::collections::HashMap;
 
 use leptos::*;
+use leptos_meta::*;
 
 #[component]
 pub fn Toml() -> impl IntoView {
@@ -35,6 +36,7 @@ pub fn Toml() -> impl IntoView {
         };
 
     view! {
+        <Title text="TOML 与 JSON 在线转换 - itit.work" />
         <section class="my-5">
         <h2 class="my-5">TOML 与 JSON 在线转换</h2>
         <label for="data" class="block mb-2 text-sm font-medium text-gray-900">数据</label>

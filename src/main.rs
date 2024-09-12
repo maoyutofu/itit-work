@@ -1,5 +1,6 @@
 use leptos::*;
 use leptos_router::*;
+use leptos_meta::*;
 
 mod common;
 mod view;
@@ -21,6 +22,7 @@ use view::Hex;
 
 #[component]
 pub fn App() -> impl IntoView {
+    provide_meta_context();
     view! {
       <Router>
         <div>

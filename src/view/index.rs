@@ -1,8 +1,10 @@
 use leptos::*;
+use leptos_meta::*;
 
 #[component]
 pub fn Index() -> impl IntoView {
     view! {
+        <Title text="itit.work - 做最简单的工具网站" />
         <section class="my-5">
             <h2>常用推荐</h2>
             <div

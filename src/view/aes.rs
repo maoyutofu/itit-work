@@ -3,6 +3,7 @@ use base64::prelude::*;
 use block_modes::block_padding::Pkcs7;
 use block_modes::{BlockMode, Ecb, InvalidKeyIvLength};
 use leptos::*;
+use leptos_meta::*;
 
 type Aes128Ecb = Ecb<Aes128, Pkcs7>;
 
@@ -100,6 +101,7 @@ pub fn Aes() -> impl IntoView {
     };
 
     view! {
+        <Title text="AES 在线加密解密 - itit.work" />
         <section class="my-5">
             <h2 class="my-5">AES 在线加密解密</h2>
             <div class="p-4 bg-yellow-100 text-yellow-800">

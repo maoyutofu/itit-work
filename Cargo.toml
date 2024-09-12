@@ -6,7 +6,7 @@ edition = "2021"
 [dependencies]
 leptos = { version = "0.6.14", features = ["csr"] }
 leptos_router = { version = "0.6.14", features = ["csr"] }
-leptos_meta = "0.6.15"
+leptos_meta = { version = "0.6.14", features = ["csr"] }
 leptos-use = "0.13.4"
 base64 = "0.22.1"
 serde = { version = "1.0", features = ["derive"] }

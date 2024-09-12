@@ -1,4 +1,5 @@
 use leptos::*;
+use leptos_meta::*;
 use qrcode::render::svg;
 use qrcode::QrCode;
 
@@ -31,6 +32,7 @@ pub fn Qrcode() -> impl IntoView {
     };
 
     view! {
+        <Title text="二维码在线生成 - itit.work" />
         <section class="my-5">
             <h2 class="my-5">二维码在线生成</h2>
             <label for="number-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">数据</label>

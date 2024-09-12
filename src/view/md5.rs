@@ -1,4 +1,5 @@
 use leptos::*;
+use leptos_meta::*;
 
 #[component]
 pub fn Md5() -> impl IntoView {
@@ -25,6 +26,7 @@ pub fn Md5() -> impl IntoView {
     };
 
     view! {
+        <Title text="MD5 在线计算 - itit.work" />
         <section class="my-5">
         <h2 class="my-5">MD5 在线计算</h2>
         <label for="data" class="block mb-2 text-sm font-medium text-gray-900">数据</label>

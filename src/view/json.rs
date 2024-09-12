@@ -2,6 +2,7 @@ use std::collections::HashMap;
 
 use leptos::*;
 use serde_json::Value;
+use leptos_meta::*;
 
 #[component]
 pub fn Json() -> impl IntoView {
@@ -53,6 +54,7 @@ pub fn Json() -> impl IntoView {
     };
 
     view! {
+        <Title text="JSON 在线工具 - itit.work" />
         <section class="my-5">
         <h2 class="my-5">JSON 在线工具</h2>
         <label for="data" class="block mb-2 text-sm font-medium text-gray-900">数据</label>

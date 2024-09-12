@@ -1,5 +1,6 @@
 use chrono::{DateTime, FixedOffset, Utc};
 use leptos::*;
+use leptos_meta::*;
 
 fn utc_datetime_format(milliseconds: i64, format: &str) -> Result<String, String> {
     let seconds = milliseconds / 1000;
@@ -84,6 +85,7 @@ pub fn Timestamp() -> impl IntoView {
     };
 
     view! {
+            <Title text="时间戳在线转换 - itit.work" />
             <section class="my-5">
                 <h2 class="my-5">时间戳在线转换</h2>
                 <label for="default-input" class="block mb-2 mt-5 text-sm font-medium text-gray-900 dark:text-white">时间戳</label>
