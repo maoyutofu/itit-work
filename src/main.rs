@@ -9,7 +9,6 @@ use common::Header;
 use view::Aes;
 use view::Base64;
 use view::CaseConverter;
-use view::Decimal;
 use view::Index;
 use view::Json;
 use view::Md5;
@@ -42,7 +41,6 @@ pub fn App() -> impl IntoView {
                     <Route path="/timestamp" view=Timestamp />
                     <Route path="/case-converter" view=CaseConverter />
                     <Route path="/hex" view=Hex />
-                    <Route path="/decimal" view=Decimal />
                 </Routes>
             </main>
             <footer>
