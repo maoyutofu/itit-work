@@ -54,9 +54,6 @@ pub fn Hex() -> impl IntoView {
     };
 
     let convert = move |_| {
-        let decimal_to = decimal_to.clone();
-        let hex_to = hex_to.clone();
-        let bin_to = bin_to.clone();
         let type_to = r#type.get();
         let type_str = type_to.as_str();
         match type_str {
