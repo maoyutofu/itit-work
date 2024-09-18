@@ -20,6 +20,7 @@ image = "0.25.2"
 aes="0.7.5"
 block-modes="0.8.1"
 chrono = "0.4.38"
+rand = "0.8.5"
 
 [profile.wasm-release]
 inherits = "release"

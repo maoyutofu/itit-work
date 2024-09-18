@@ -225,6 +225,16 @@ pub fn Index() -> impl IntoView {
                         </div>
                     </div>
                 </a>
+                <a href="/password" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="/images/password.png" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">密码生成器</h3>
+                            <p class="text-xs text-gray-400 truncate" inner_html="在线随机密码生成器"></p>
+                        </div>
+                    </div>
+                </a>
             </div>
         </section>
         <section class="my-5">

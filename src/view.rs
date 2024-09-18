@@ -10,6 +10,7 @@ mod uuid;
 mod yaml;
 mod case_converter;
 mod hex;
+mod password;
 
 pub use aes::Aes;
 pub use base64::Base64;
@@ -23,3 +24,4 @@ pub use uuid::Uuid;
 pub use yaml::Yaml;
 pub use case_converter::CaseConverter;
 pub use hex::Hex;
+pub use password::Password;

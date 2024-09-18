@@ -13,6 +13,7 @@ use view::CaseConverter;
 use view::Index;
 use view::Json;
 use view::Md5;
+use view::Password;
 use view::Qrcode;
 use view::Timestamp;
 use view::Toml;
@@ -43,6 +44,7 @@ pub fn App() -> impl IntoView {
                     <Route path="/timestamp" view=Timestamp />
                     <Route path="/case-converter" view=CaseConverter />
                     <Route path="/hex" view=Hex />
+                    <Route path="/password" view=Password />
                 </Routes>
             </main>
             <footer>
