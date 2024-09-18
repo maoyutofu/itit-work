@@ -1,5 +1,3 @@
-use std::collections::HashMap;
-
 use leptos::*;
 use serde_json::Value;
 use leptos_meta::*;
@@ -14,7 +12,7 @@ pub fn Json() -> impl IntoView {
     };
 
     let format = move |_| {
-        match serde_json::from_str::<HashMap<String, Value>>(data.get().as_str()) {
+        match serde_json::from_str::<Value>(data.get().as_str()) {
             Ok(value) => match serde_json::to_string_pretty(&value) {
                 Ok(format_str) => {
                     set_data.set(format_str);
