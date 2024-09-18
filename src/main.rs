@@ -12,6 +12,7 @@ use view::Base64;
 use view::CaseConverter;
 use view::Index;
 use view::Json;
+use view::Mac;
 use view::Md5;
 use view::Password;
 use view::Qrcode;
@@ -45,6 +46,7 @@ pub fn App() -> impl IntoView {
                     <Route path="/case-converter" view=CaseConverter />
                     <Route path="/hex" view=Hex />
                     <Route path="/password" view=Password />
+                    <Route path="/mac" view=Mac />
                 </Routes>
             </main>
             <footer>
