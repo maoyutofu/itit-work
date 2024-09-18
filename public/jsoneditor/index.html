@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>JSONEditor | Basic usage</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/10.1.0/jsoneditor.css"
+        integrity="sha512-iOFdnlwX6UGb55bU5DL0tjWkS/+9jxRxw2KiRzyHMZARASUSwm0nEXBcdqsYni+t3UKJSK7vrwvlL8792/UMjQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/10.1.0/jsoneditor.min.js"
+        integrity="sha512-PInE2t9LrzM/U5c/sB27ZCv/thNDKIA1DgRBzOcvaq21qlnQ/yI/YvzJMLdzsM1MvmX9j4TQLFi8+2+rTkdR4w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <style type="text/css">
+        #jsoneditor {
+            width: 500px;
+            height: 500px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="jsoneditor"></div>
+
+    <script>
+        // create the editor
+        const container = document.getElementById('jsoneditor')
+        const options = {
+            modes: ['text', 'code', 'tree', 'form', 'view'],
+            mode: 'code',
+            ace: ace
+        }
+        const json = {
+            'array': [1, 2, 3],
+            'boolean': true,
+            'null': null,
+            'number': 123,
+            'object': { 'a': 'b', 'c': 'd' },
+            'string': 'Hello World'
+        }
+        const editor = new JSONEditor(container, options, json)
+    </script>
+</body>
+
+</html>
