@@ -95,29 +95,29 @@ pub fn Password() -> impl IntoView {
             <h2 class="my-5">在线随机密码生成器</h2>
             <div class="flex items-center flex-wrap gap-5 mb-4">
                 <div>
-                    <input id="capital" type="checkbox" on:change=capital_change prop:checked=capital value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500" />
+                    <input id="capital" type="checkbox" on:change=capital_change prop:checked=capital value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500" />
                     <label for="capital" class="ms-2 text-sm font-medium text-gray-900 ml-2">大写字母(A-Z)</label>
                 </div>
                 <div>
-                    <input id="small" type="checkbox"  on:change=small_change prop:checked=small value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500" />
+                    <input id="small" type="checkbox"  on:change=small_change prop:checked=small value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500" />
                     <label for="small" class="ms-2 text-sm font-medium text-gray-900 ml-2">小写字母(a-z)</label>
                 </div>
                 <div>
-                    <input id="digital" type="checkbox" on:change=digital_change prop:checked=digital value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500" />
+                    <input id="digital" type="checkbox" on:change=digital_change prop:checked=digital value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500" />
                     <label for="digital" class="ms-2 text-sm font-medium text-gray-900 ml-2">数字(0-9)</label>
                 </div>
                 <div>
-                    <input id="symbol" type="checkbox" on:change=symbol_change prop:checked=symbol value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500" />
+                    <input id="symbol" type="checkbox" on:change=symbol_change prop:checked=symbol value="" class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500" />
                     <label for="symbol" class="ms-2 text-sm font-medium text-gray-900 ml-2">其他符号(~!@#$%^&*()-+_=,.)</label>
                 </div>
             </div>
             <div class="flex items-center mb-4">
                 <label for="password-length" class="w-24 text-sm font-medium text-gray-900">密码长度</label>
-                <input id="password-length" type="number" on:input=password_length_input prop:value=password_length class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
+                <input id="password-length" type="number" on:input=password_length_input prop:value=password_length class="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
             </div>
             <div class="flex items-center mb-4">
                 <label for="password-count" class="w-24 text-sm font-medium text-gray-900">密码个数</label>
-                <input id="password-count" type="number" on:input=password_count_input prop:value=password_count class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
+                <input id="password-count" type="number" on:input=password_count_input prop:value=password_count class="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
             </div>
             <div class="flex mt-5 justify-end gap-1">
                 <button on:click=generate type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium text-sm px-5 py-2.5 me-2 mb-2">生成</button>

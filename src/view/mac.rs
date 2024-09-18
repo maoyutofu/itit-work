@@ -43,7 +43,7 @@ pub fn Mac() -> impl IntoView {
             <h2 class="my-5">在线 MAC 生成器</h2>
             <div class="flex items-center mb-4">
                 <label for="password-count" class="w-24 text-sm font-medium text-gray-900">数量</label>
-                <input id="password-count" type="number" on:input=count_input prop:value=count class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
+                <input id="password-count" type="number" on:input=count_input prop:value=count class="bg-gray-50 border border-gray-300 text-gray-900 text-sm focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" />
             </div>
             <div class="flex mt-5 justify-end gap-1">
                 <button on:click=generate type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium text-sm px-5 py-2.5 me-2 mb-2">生成</button>
