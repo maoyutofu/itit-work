@@ -1217,38 +1217,6 @@ input:checked + .toggle-bg {
   height: 2.25rem;
 }
 
-.h-1\/2 {
-  height: 50%;
-}
-
-.h-2\/3 {
-  height: 66.666667%;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.h-screen {
-  height: 100vh;
-}
-
-.h-72 {
-  height: 18rem;
-}
-
-.h-auto {
-  height: auto;
-}
-
-.min-h-full {
-  min-height: 100%;
-}
-
-.min-h-80 {
-  min-height: 20rem;
-}
-
 .w-1\/2 {
   width: 50%;
 }
@@ -1349,10 +1317,6 @@ input:checked + .toggle-bg {
 
 .grid-cols-7 {
   grid-template-columns: repeat(7, minmax(0, 1fr));
-}
-
-.flex-row {
-  flex-direction: row;
 }
 
 .flex-col {
@@ -1907,6 +1871,10 @@ input:checked + .toggle-bg {
 @media (min-width: 640px) {
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .sm\:justify-end {
+    justify-content: flex-end;
   }
 }
 

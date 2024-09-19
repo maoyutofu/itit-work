@@ -1,14 +1,31 @@
 use leptos::*;
 // use serde_json::Value;
-// use leptos_meta::*;
+use leptos_meta::*;
 
 #[component]
 pub fn Json() -> impl IntoView {
     view!(
-        <link rel="stylesheet" href="jsoneditor/10.1.0/jsoneditor.css" />
-        <script type="module" src="jsoneditor/10.1.0/jsoneditor.min.js"></script>
-        <div id="jsoneditor" class="w-full my-5" style="height: 40rem;"></div>
-        <script type="module" src="jsoneditor/index.js"></script>
+        <Title text="JSON 在线工具 - itit.work" />
+        // <link rel="stylesheet" href="jsoneditor/10.1.0/jsoneditor.css" />
+        // <script type="module" src="jsoneditor/10.1.0/jsoneditor.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/10.1.0/jsoneditor.css"
+            integrity="sha512-iOFdnlwX6UGb55bU5DL0tjWkS/+9jxRxw2KiRzyHMZARASUSwm0nEXBcdqsYni+t3UKJSK7vrwvlL8792/UMjQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/10.1.0/jsoneditor.min.js"
+            integrity="sha512-PInE2t9LrzM/U5c/sB27ZCv/thNDKIA1DgRBzOcvaq21qlnQ/yI/YvzJMLdzsM1MvmX9j4TQLFi8+2+rTkdR4w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="jsoneditor/index.js"></script>
+        <section class="my-5">
+            <h2 class="my-5">JSON 在线工具</h2>
+            <div id="jsoneditor" class="w-full my-5" style="height: 40rem;"></div>
+            <div class="flex flex-wrap mt-5 justify-between sm:justify-end gap-1">
+                <button onclick="format()" type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium text-sm px-5 py-2.5 me-2 mb-2">格式化</button>
+                <button onclick="compress()" type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium text-sm px-5 py-2.5 me-2 mb-2">压缩</button>
+                <button onclick="toStr()" type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium text-sm px-5 py-2.5 me-2 mb-2">转成字符串</button>
+                <button onclick="transfer()" type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium text-sm px-5 py-2.5 me-2 mb-2">转义</button>
+                <button onclick="detransfer()" type="button" class="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium text-sm px-5 py-2.5 me-2 mb-2">去转义</button>
+            </div>
+        </section>
     )
 }
 // #[component]
