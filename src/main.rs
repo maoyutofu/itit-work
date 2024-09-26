@@ -10,6 +10,7 @@ use common::Header;
 use view::Aes;
 use view::Base64;
 use view::CaseConverter;
+use view::FileHash;
 use view::Index;
 use view::Json;
 use view::Mac;
@@ -47,6 +48,7 @@ pub fn App() -> impl IntoView {
                     <Route path="/hex" view=Hex />
                     <Route path="/password" view=Password />
                     <Route path="/mac" view=Mac />
+                    <Route path="/file-hash" view=FileHash />
                 </Routes>
             </main>
             <footer>

@@ -12,6 +12,7 @@ mod case_converter;
 mod hex;
 mod password;
 mod mac;
+mod file_hash;
 
 pub use aes::Aes;
 pub use base64::Base64;
@@ -27,3 +28,4 @@ pub use case_converter::CaseConverter;
 pub use hex::Hex;
 pub use password::Password;
 pub use mac::Mac;
+pub use file_hash::FileHash;
