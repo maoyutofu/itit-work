@@ -6,14 +6,8 @@ use leptos_meta::*;
 pub fn Json() -> impl IntoView {
     view!(
         <Title text="JSON 在线工具 - itit.work" />
-        // <link rel="stylesheet" href="jsoneditor/10.1.0/jsoneditor.css" />
-        // <script type="module" src="jsoneditor/10.1.0/jsoneditor.min.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/10.1.0/jsoneditor.css"
-            integrity="sha512-iOFdnlwX6UGb55bU5DL0tjWkS/+9jxRxw2KiRzyHMZARASUSwm0nEXBcdqsYni+t3UKJSK7vrwvlL8792/UMjQ=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/10.1.0/jsoneditor.min.js"
-            integrity="sha512-PInE2t9LrzM/U5c/sB27ZCv/thNDKIA1DgRBzOcvaq21qlnQ/yI/YvzJMLdzsM1MvmX9j4TQLFi8+2+rTkdR4w=="
-            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link rel="stylesheet" href="jsoneditor/10.1.0/jsoneditor.css" />
+        <script src="jsoneditor/10.1.0/jsoneditor.min.js" ></script>
         <script src="jsoneditor/index.js"></script>
         <section class="my-5">
             <h2 class="my-5">JSON 在线工具</h2>
