@@ -8,6 +8,7 @@ mod view;
 use common::Footer;
 use common::Header;
 use view::Aes;
+use view::Ai;
 use view::Base64;
 use view::CaseConverter;
 use view::FileHash;
@@ -35,6 +36,7 @@ pub fn App() -> impl IntoView {
             <main>
                 <Routes>
                     <Route path="/" view=Index />
+                    <Route path="/ai" view=Ai />
                     <Route path="/base64" view=Base64 />
                     <Route path="/json" view=Json />
                     <Route path="/md5" view=Md5 />

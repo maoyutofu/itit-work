@@ -49,13 +49,13 @@ pub fn Index() -> impl IntoView {
                         </div>
                     </div>
                 </a>
-                <a href="https://mp.toutiao.com/" target="_blank">
+                <a href="https://translate.google.com/" target="_blank">
                     <div
                         class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
-                        <img class="w-10 h-10" src="/images/mp.toutiao.com.png" alt="" />
+                        <img class="w-10 h-10" src="/images/translate.google.com.ico" alt="" />
                         <div class="ml-3 truncate">
-                            <h3 class="text-sm truncate">头条号</h3>
-                            <p class="text-xs text-gray-400">今日头条媒体平台</p>
+                            <h3 class="text-sm truncate">Google 翻译</h3>
+                            <p class="text-xs text-gray-400 truncate">记录美好生活</p>
                         </div>
                     </div>
                 </a>
@@ -106,6 +106,16 @@ pub fn Index() -> impl IntoView {
                         <div class="ml-3 truncate">
                             <h3 class="text-sm truncate">微信文件助手</h3>
                             <p class="text-xs text-gray-400 truncate" inner_html="手机、电脑互传文件"></p>
+                        </div>
+                    </div>
+                </a>
+                <a href="/ai" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="/images/ai.svg" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">AI 大模型导航</h3>
+                            <p class="text-xs text-gray-400 truncate">让 AI 为你打工</p>
                         </div>
                     </div>
                 </a>
@@ -338,6 +348,16 @@ pub fn Index() -> impl IntoView {
                         </div>
                     </div>
                 </a>
+                <a href="https://mp.toutiao.com/" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="/images/mp.toutiao.com.png" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">头条号</h3>
+                            <p class="text-xs text-gray-400">今日头条媒体平台</p>
+                        </div>
+                    </div>
+                </a>
                 <a href="https://www.youtube.com/" target="_blank">
                     <div
                         class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
@@ -395,77 +415,6 @@ pub fn Index() -> impl IntoView {
                         <div class="ml-3 truncate">
                             <h3 class="text-sm truncate">有道翻译</h3>
                             <p class="text-xs text-gray-400 truncate">网易的翻译工具</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://translate.google.com/" target="_blank">
-                    <div
-                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
-                        <img class="w-10 h-10" src="/images/translate.google.com.ico" alt="" />
-                        <div class="ml-3 truncate">
-                            <h3 class="text-sm truncate">Google 翻译</h3>
-                            <p class="text-xs text-gray-400 truncate">记录美好生活</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://www.doubao.com/chat/" target="_blank">
-                    <div
-                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
-                        <img class="w-10 h-10" src="/images/www.doubao.com.png" alt="" />
-                        <div class="ml-3 truncate">
-                            <h3 class="text-sm truncate">豆包</h3>
-                            <p class="text-xs text-gray-400 truncate">字节跳动旗下 AI 智能助手</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://api2d.com/r/220092" target="_blank">
-                    <div
-                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
-                        <img class="w-10 h-10" src="/images/api2d.com.png" alt="" />
-                        <div class="ml-3 truncate">
-                            <h3 class="text-sm truncate">API2D</h3>
-                            <p class="text-xs text-gray-400 truncate">OpenAI ChatGPT 像用电一样方便</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://yiyan.baidu.com/" target="_blank">
-                    <div
-                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
-                        <img class="w-10 h-10" src="/images/yiyan.baidu.com.png" alt="" />
-                        <div class="ml-3 truncate">
-                            <h3 class="text-sm truncate">文心一言</h3>
-                            <p class="text-xs text-gray-400 truncate">百度全新一代知识增强大语言模型</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://tongyi.aliyun.com/" target="_blank">
-                    <div
-                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
-                        <img class="w-10 h-10" src="/images/tongyi.aliyun.com.png" alt="" />
-                        <div class="ml-3 truncate">
-                            <h3 class="text-sm truncate">通义千问</h3>
-                            <p class="text-xs text-gray-400 truncate" inner_html="通情、达义，你的全能AI助手"></p>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://xinghuo.xfyun.cn/desk" target="_blank">
-                    <div
-                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
-                        <img class="w-10 h-10" src="/images/xinghuo.xfyun.cn.ico" alt="" />
-                        <div class="ml-3 truncate">
-                            <h3 class="text-sm truncate">讯飞星火</h3>
-                            <p class="text-xs text-gray-400 truncate" inner_html="讯飞提供的大模型服务"></p>
-                        </div>
-                    </div>
-                </a>
-                <a href="https://duckduckgo.com/?q=DuckDuckGo+AI+Chat&ia=chat&duckai=1" target="_blank">
-                    <div
-                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
-                        <img class="w-10 h-10" src="/images/duckduckgo.com.png" alt="" />
-                        <div class="ml-3 truncate">
-                            <h3 class="text-sm truncate">AI Chat</h3>
-                            <p class="text-xs text-gray-400 truncate" inner_html="GPT-4o mini、Claude 3 以及开源 Llama 3.1 和 Mixtral">
-                            </p>
                         </div>
                     </div>
                 </a>

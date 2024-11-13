@@ -13,6 +13,7 @@ mod hex;
 mod password;
 mod mac;
 mod file_hash;
+mod ai;
 
 pub use aes::Aes;
 pub use base64::Base64;
@@ -29,3 +30,4 @@ pub use hex::Hex;
 pub use password::Password;
 pub use mac::Mac;
 pub use file_hash::FileHash;
+pub use ai::Ai;
