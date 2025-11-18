@@ -26,7 +26,7 @@ pub fn Md5() -> impl IntoView {
     };
 
     view! {
-        <Title text="MD5 在线计算 - itit.work" />
+        <Title text="MD5 在线计算 - ITIT.Work" />
         <section class="my-5">
         <h2 class="my-5">MD5 在线计算</h2>
         <label for="data" class="block mb-2 text-sm font-medium text-gray-900">数据</label>

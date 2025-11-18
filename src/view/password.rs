@@ -89,7 +89,7 @@ pub fn Password() -> impl IntoView {
     };
 
     view!(
-        <Title text="在线随机密码生成器 - itit.work" />
+        <Title text="在线随机密码生成器 - ITIT.Work" />
 
         <section class="my-5">
             <h2 class="my-5">在线随机密码生成器</h2>

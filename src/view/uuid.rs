@@ -23,7 +23,7 @@ pub fn Uuid() -> impl IntoView {
     };
 
     view! {
-        <Title text="UUID 在线生成 - itit.work" />
+        <Title text="UUID 在线生成 - ITIT.Work" />
         <section class="my-5">
             <h2 class="my-5">UUID 在线生成</h2>
             <label for="number-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">数量</label>

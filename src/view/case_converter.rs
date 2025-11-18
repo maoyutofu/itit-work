@@ -17,7 +17,7 @@ pub fn CaseConverter() -> impl IntoView {
     };
 
     view! {
-        <Title text="大小写在线转换 - itit.work" />
+        <Title text="大小写在线转换 - ITIT.Work" />
         <section class="my-5">
         <h2 class="my-5">大小写在线转换</h2>
         <label for="data" class="block mb-2 text-sm font-medium text-gray-900">数据</label>

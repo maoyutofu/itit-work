@@ -37,7 +37,7 @@ pub fn Mac() -> impl IntoView {
     };
 
     view!(
-        <Title text="在线 MAC 生成器 - itit.work" />
+        <Title text="在线 MAC 生成器 - ITIT.Work" />
 
         <section class="my-5">
             <h2 class="my-5">在线 MAC 生成器</h2>

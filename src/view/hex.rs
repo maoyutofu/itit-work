@@ -65,7 +65,7 @@ pub fn Hex() -> impl IntoView {
     };
 
     view! {
-        <Title text="进制转换 - itit.work" />
+        <Title text="进制转换 - ITIT.Work" />
         <section class="my-5">
             <h2 class="my-5">进制转换</h2>
             <label for="number-input" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">十进制</label>

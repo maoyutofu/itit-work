@@ -4,7 +4,7 @@ use leptos_meta::*;
 #[component]
 pub fn Index() -> impl IntoView {
     view! {
-        <Title text="itit.work - 做最简单的工具网站" />
+        <Title text="做最简单的工具网站 - ITIT.Work" />
         <section class="my-5">
             <h2>常用推荐</h2>
             <div
@@ -122,7 +122,7 @@ pub fn Index() -> impl IntoView {
             </div>
         </section>
         <section class="my-5">
-            <h2>工具</h2>
+            <h2>"工具（Rust WASM）"</h2>
             <div
                 class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5  2xl:grid-cols-6 gap-5 mt-5">
                 <a href="/json" target="_blank">
@@ -319,6 +319,16 @@ pub fn Index() -> impl IntoView {
                         <div class="ml-3 truncate">
                             <h3 class="text-sm truncate">网易企业邮箱</h3>
                             <p class="text-xs text-gray-400 truncate">由网易提供的企业邮箱服务</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://fakemail.work/" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/images/fakemail.work.png" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">FakeMail</h3>
+                            <p class="text-xs text-gray-400 truncate">安全且匿名的临时邮件服务</p>
                         </div>
                     </div>
                 </a>

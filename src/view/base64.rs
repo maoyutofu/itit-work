@@ -24,7 +24,7 @@ pub fn Base64() -> impl IntoView {
     };
 
     view! {
-        <Title text="Base64 在线编码解码 - itit.work" />
+        <Title text="Base64 在线编码解码 - ITIT.Work" />
         <section class="my-5">
         <h2 class="my-5">Base64 在线编码解码</h2>
         <label for="data" class="block mb-2 text-sm font-medium text-gray-900">数据</label>

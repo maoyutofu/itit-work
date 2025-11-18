@@ -5,10 +5,10 @@ use leptos_meta::*;
 #[component]
 pub fn Json() -> impl IntoView {
     view!(
-        <Title text="JSON 在线工具 - itit.work" />
-        <link rel="stylesheet" href="jsoneditor/10.1.0/jsoneditor.css" />
-        <script src="jsoneditor/10.1.0/jsoneditor.min.js" ></script>
-        <script src="jsoneditor/index.js"></script>
+        <Title text="JSON 在线工具 - ITIT.Work" />
+        <link rel="stylesheet" href="https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/jsoneditor/10.1.0/jsoneditor.css" />
+        <script src="https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/jsoneditor/10.1.0/jsoneditor.min.js" ></script>
+        <script src="https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/jsoneditor/index.js"></script>
         <section class="my-5">
             <h2 class="my-5">JSON 在线工具</h2>
             <div id="jsoneditor" class="w-full my-5" style="height: 40rem;"></div>
@@ -82,7 +82,7 @@ pub fn Json() -> impl IntoView {
 //     };
 
 //     view! {
-//         <Title text="JSON 在线工具 - itit.work" />
+//         <Title text="JSON 在线工具 - ITIT.Work" />
 //         <section class="my-5">
 //         <h2 class="my-5">JSON 在线工具</h2>
 //         <label for="data" class="block mb-2 text-sm font-medium text-gray-900">数据</label>

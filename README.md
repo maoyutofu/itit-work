@@ -5,7 +5,7 @@ This has been stopped for maintenance and will be continued at [itit-work-ssr](h
 ## Run or build
 ```
 # build tailwindcss
-npx tailwindcss -i ./input.css -o ./style/output.css
+npx tailwindcss@3 -i ./input.css -o ./style/output.css
 
 # run
 trunk serve --open

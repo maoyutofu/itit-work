@@ -101,7 +101,7 @@ pub fn Aes() -> impl IntoView {
     };
 
     view! {
-        <Title text="AES 在线加密解密 - itit.work" />
+        <Title text="AES 在线加密解密 - ITIT.Work" />
         <section class="my-5">
             <h2 class="my-5">AES 在线加密解密</h2>
             <div class="p-4 bg-yellow-100 text-yellow-800">
