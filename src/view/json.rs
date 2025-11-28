@@ -9,7 +9,7 @@ pub fn Json() -> impl IntoView {
         <link rel="stylesheet" href="https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/jsoneditor/10.1.0/jsoneditor.css" />
         <script src="https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/jsoneditor/10.1.0/jsoneditor.min.js" ></script>
         <script src="https://itit-work-1251679744.cos.ap-guangzhou.myqcloud.com/jsoneditor/index.js"></script>
-        <section class="my-5">
+        <section class="bg-white shadow-md p-6">
             <h2 class="my-5">JSON 在线工具</h2>
             <div id="jsoneditor" class="w-full my-5" style="height: 40rem;"></div>
             <div class="flex flex-wrap mt-5 justify-between sm:justify-end gap-1">
@@ -83,7 +83,7 @@ pub fn Json() -> impl IntoView {
 
 //     view! {
 //         <Title text="JSON 在线工具 - ITIT.Work" />
-//         <section class="my-5">
+//         <section class="bg-white shadow-md p-6">
 //         <h2 class="my-5">JSON 在线工具</h2>
 //         <label for="data" class="block mb-2 text-sm font-medium text-gray-900">数据</label>
 //         <textarea on:input=input_data prop:value=data id="data" rows="21" class="block p-2.5 w-full text-sm border-none text-white-900 bg-white-50 focus:ring-blue-500 focus:border-blue-500"></textarea>

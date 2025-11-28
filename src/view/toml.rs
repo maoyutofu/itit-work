@@ -37,7 +37,7 @@ pub fn Toml() -> impl IntoView {
 
     view! {
         <Title text="TOML 与 JSON 在线转换 - ITIT.Work" />
-        <section class="my-5">
+        <section class="bg-white shadow-md p-6">
         <h2 class="my-5">TOML 与 JSON 在线转换</h2>
         <label for="data" class="block mb-2 text-sm font-medium text-gray-900">数据</label>
         <textarea on:input=input_data id="data" rows="11" class="block p-2.5 w-full text-sm border-none text-white-900 bg-white-50 focus:ring-blue-500 focus:border-blue-500"></textarea>

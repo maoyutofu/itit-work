@@ -39,7 +39,7 @@ pub fn Mac() -> impl IntoView {
     view!(
         <Title text="在线 MAC 生成器 - ITIT.Work" />
 
-        <section class="my-5">
+        <section class="bg-white shadow-md p-6">
             <h2 class="my-5">在线 MAC 生成器</h2>
             <div class="flex flex-col mb-4">
                 <label for="password-count" class="w-24 text-sm font-medium text-gray-900 mb-2">数量</label>

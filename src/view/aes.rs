@@ -102,7 +102,7 @@ pub fn Aes() -> impl IntoView {
 
     view! {
         <Title text="AES 在线加密解密 - ITIT.Work" />
-        <section class="my-5">
+        <section class="bg-white shadow-md p-6">
             <h2 class="my-5">AES 在线加密解密</h2>
             <div class="p-4 bg-yellow-100 text-yellow-800">
                 <p inner_html="说明：AES 数据块长度为 128 位，所以 IV 长度需要为 16 个字符（ECB 模式不用 IV），密钥根据指定密钥位数分别为 16、24、32 个字符，IV与密钥超过长度则截取，不足则在末尾填充 '\0' 补足"></p>

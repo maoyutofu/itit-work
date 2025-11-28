@@ -5,7 +5,7 @@ use leptos_meta::*;
 pub fn Ai() -> impl IntoView {
     view! {
         <Title text="itit.work - AI 大模型导航" />
-        <section class="my-5">
+        <section class="my-5 bg-white shadow-md p-6">
             <h2>国内公共大模型</h2>
             <div
                 class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5  2xl:grid-cols-6 gap-5 mt-5">
@@ -101,7 +101,7 @@ pub fn Ai() -> impl IntoView {
                 </a>
             </div>
         </section>
-        <section class="my-5">
+        <section class="my-5 bg-white shadow-md p-6">
             <h2>国际公共大模型</h2>
             <div
                 class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5  2xl:grid-cols-6 gap-5 mt-5">
@@ -168,7 +168,7 @@ pub fn Ai() -> impl IntoView {
                 </a>
             </div>
         </section>
-        <section class="my-5">
+        <section class="my-5 bg-white shadow-md p-6">
             <h2>本地私有大模型</h2>
             <div
                 class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5  2xl:grid-cols-6 gap-5 mt-5">
