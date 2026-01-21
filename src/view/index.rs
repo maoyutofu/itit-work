@@ -119,6 +119,26 @@ pub fn Index() -> impl IntoView {
                         </div>
                     </div>
                 </a>
+                <a href="https://systemprompt.icu/" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="/images/systemprompt.icu.ico" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">AI Prompt 优化工具</h3>
+                            <p class="text-xs text-gray-400 truncate">让AI更好地理解你的 Prompt</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://imageprompt.org/" target="_blank">
+                    <div
+                        class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
+                        <img class="w-10 h-10" src="/images/imageprompt.org.ico" alt="" />
+                        <div class="ml-3 truncate">
+                            <h3 class="text-sm truncate">图片提示生成器</h3>
+                            <p class="text-xs text-gray-400 truncate">将图像转换为提示词</p>
+                        </div>
+                    </div>
+                </a>
             </div>
         </section>
         <section class="my-5 bg-white shadow-md p-6">
