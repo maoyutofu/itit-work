@@ -122,9 +122,9 @@ pub fn Index() -> impl IntoView {
                 <a href="https://systemprompt.icu/" target="_blank">
                     <div
                         class="flex items-center h-20 px-3 lg:px-5 bg-white hover:translate-y-[-1px] hover:shadow-lg transition-transform duration-300">
-                        <img class="w-10 h-10" src="/images/systemprompt.icu.ico" alt="" />
+                        <img class="w-10 h-10" src="/images/systemprompt.icu.svg" alt="" />
                         <div class="ml-3 truncate">
-                            <h3 class="text-sm truncate">AI Prompt 优化工具</h3>
+                            <h3 class="text-sm truncate">Prompt 优化工具</h3>
                             <p class="text-xs text-gray-400 truncate">让AI更好地理解你的 Prompt</p>
                         </div>
                     </div>
